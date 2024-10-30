@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-color: rgb(219, 128, 141);
+    --primary-color: rgb(148, 0, 0);
+    --secundary-color: rgb(161, 0, 22);
+    --font-selecionada: "Rubik Wet Paint", system-ui;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+.barra{
+    width: 100%;
+    padding: 2rem;
+    position: fixed;
+    box-shadow: 1px 2px var(--secundary-color);
+}
